@@ -103,7 +103,7 @@
 
     function drawScore(){
       ctx.font = "16px Hachi Maru Pop";
-      ctx.fillStyle = "#f2cf01";
+      ctx.fillStyle = "#f6ad3c";
       ctx.fillText("スコア：" + score, 8, 20);
     }
 
@@ -140,7 +140,7 @@
             bricks[c][r].y=brickY;
             ctx.beginPath();
             ctx.rect(brickX, brickY, brickWidth, brickHeight);
-            ctx.fillStyle = "#f2cf01";
+            ctx.fillStyle = "#f6ad3c";
             ctx.fill();
             ctx.closePath();
           }
@@ -200,7 +200,7 @@
       }
     }
 
-    let interval = setInterval(draw,10);
+    let interval = setInterval(draw,8);
   </script>
 </body>
 </html>
